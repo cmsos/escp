@@ -1,2 +1,1 @@
-# escp
- Electronic structure of crystalline polymers
+See https://cmsos.github.io/escp/index.html

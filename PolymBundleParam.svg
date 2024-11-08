@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63mm" height="58mm" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 6300 5800" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#373435;stroke-width:17.64;stroke-miterlimit:22.9256}
+    .str4 {stroke:black;stroke-width:17.64;stroke-miterlimit:22.9256}
+    .str0 {stroke:#201E1E;stroke-width:141.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str2 {stroke:#201E1E;stroke-width:70.56;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str3 {stroke:black;stroke-width:17.64;stroke-miterlimit:22.9256;stroke-dasharray:176.400000 88.200000}
+    .fil0 {fill:none}
+    .fil3 {fill:black}
+    .fil2 {fill:white}
+    .fil1 {fill:black;fill-rule:nonzero}
+    .fnt1 {font-weight:normal;font-size:423.32px;font-family:'Arial'}
+    .fnt0 {font-weight:normal;font-size:423.33px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g transform="translate(3.8 -4203.8)">
+  <rect class="fil0" x="-3.8" y="4203.8" width="6300" height="5800"/>
+  
+   <path class="fil1" d="m6147.5 9321.4h-6051.3v-35.28h6051.3zm37.26-2.72-19.35-29.84 0.01 29.84-140.32-90.96 19.34-29.84 140.32 90.96zm0 0v-29.84l23 14.91zm-149.99 76.11-9.68-14.91 140.32-91.04 19.35 29.84-140.32 91.03z"/>
+  
+  
+   <path class="fil1" d="m1613.8 4352.5v5551.3h-35.28v-5551.3zm-2.72-37.26-29.84 19.35 29.84-0.01-90.96 140.32-29.84-19.34 90.96-140.32zm0 0h-29.84l14.91-23zm76.11 149.99-14.91 9.68-91.04-140.32 29.84-19.35 91.03 140.32z"/>
+  
+  
+   <line class="fil0 str0" x1="2796.2" x2="396.2" y1="9303.8" y2="9303.8"/>
+   <circle class="fil2 str1" cx="1596.2" cy="9303.8" r="50"/>
+   <polyline class="fil0 str2" points="2796.2 9303.8 3196.2 8903.8 3596.2 9303.8 3196.2 9703.8 2996.2 9503.8 3196.2 9303.8"/>
+  
+  <line class="fil0 str3" x1="4596.2" x2="4596.2" y1="9303.8" y2="6303.8"/>
+  <line class="fil0 str3" x1="1596.2" x2="5696.2" y1="6303.8" y2="6303.8"/>
+  <path class="fil0 str1" d="m4949.8 5950.2c93.77 93.76 146.45 220.94 146.45 353.55"/>
+  
+   <line class="fil0 str0" x1="5444.1" x2="3747.1" y1="5457.2" y2="7154.2"/>
+   <circle class="fil2 str1" transform="matrix(.35355 -.35355 -.35355 -.35355 4595.6 6305.7)" r="100"/>
+   <polyline class="fil0 str2" points="5444.2 5457.2 6009.8 5457.2 6009.8 4891.5 5444.2 4891.5 5444.2 5174.3 5727 5174.3"/>
+  
+  <text class="fil3 fnt0" x="4513.2798" y="9668.21">y</text>
+  <text class="fil3 fnt1" x="1310.8199" y="6433.4199">z</text>
+  <text class="fil3 fnt0" x="523.91998" y="8744.96">chain (0,0,0,0,1)</text>
+  <text class="fil3 fnt0" x="2799.1599" y="4711.98">chain (</text>
+  <text class="fil3 fnt0" x="4259.3701" y="4711.98">,y,z,</text>
+  <text class="fil3 fnt0" x="5278.7002" y="4711.98">,Z)</text>
+  <text class="fil3 fnt0" x="4069.79" y="4711.98">ξ</text>
+  <text class="fil3 fnt0" x="5004.1699" y="4711.98">φ</text>
+  <text class="fil3 fnt0" x="5148.3198" y="6114.8999">φ</text>
+  <circle class="fil3 str4" cx="1596.2" cy="6303.8" r="50"/>
+  <circle class="fil3 str4" cx="4596.2" cy="9303.8" r="50"/>
+ </g>
+</svg>

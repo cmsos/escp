@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="def.css">
+<title>Electronic structure of crystalline polymers</title>
+</head>
+<body>
+<h1>Electronic structure of crystalline polymers</h1>
+
+<h2>Structural notations and conventions</h2>
+<ul>
+<li>Considered are only 1D-polymers aligned in one direction, with a single bond between monomers.</li>
+<li>The coordinate system is oriented in such a way that polymer chains run along X axis
+ and the π-system is directed along Z axis.</li>
+<li>Each monomer has continuous set of atom indexes,
+ and monomers with smaller X-coordinate have smaller indexes.</li>
+<li>By default the origin is put at the middle point between the unit cell and its left replica.</li>
+<li>Capping atoms (do not belong to monomers) are indexed at the very end of an oligomer
+ and are ordered as left end, then right end.</li>
+<li>A crystal or a bundle of polymer chains are defined by a list of five parameters per bundle:
+ <code>[ξ,y,z,φ,g]</code>, see <a href="PolymBundleParam.svg">figure</a>.
+ Here <code>ξ=x/a]</code> is the shift along the polymer in units of the translation period <code>a</code>,
+ <code>y,z</code> are displacements in YZ-plane,
+ <code>φ</code> is "setting angle" defining polymer rotation around X-axis in the right-hand rule,
+ such that <code>φ=0</code> corresponds to the polymer plane perpendicular to Z-axis,
+ and <code>g</code> is a combination of X,Y,Z-reflections,
+ This parameters are applied in the reverse order:
+ the reference polymer <code>[0,0,0,0,1]</code> is transformed by <code>g</code>, then rotated by <code>φ</code>, and then displaced by <code>(ξa,y,z)</code>.</li>
+</ul>
+
+<h2>Computational methodology</h2>
+<p>All calculations and data processing are performed with the same set of computational protocols referenced below:</p>
+<ul>
+<li>Initial geometry is generated from the list of <code>[ξ,y,z,φ,g]</code> for the unit cell.
+    Initial guess for parameters <code>y,z,φ</code> can be derived from a cross-sectional model of polymer packing,
+    whereas a scan is needed to determine optimal values of <code>ξ,g</code>.
+    Also, all conformations of a single polymer chain should be considered.
+    MD in a small supercell allows to get new structures.
+    For two polymer chains per unt cell, the procedure is illustrated for P3HT system in Ref.[<a href="https://doi.org/10.1021/acs.jpcc.7b11271">Zhugayevych18</a>].
+     </li>
+<li><a href="https://cmsos.github.io/protocols.html#molcry.geo.opt">Molecular crystal geometry optimization</a></li>
+<li><a href="https://cmsos.github.io/protocols.html#ecg">Electronic coarse-graining of insulators</a></li>
+<li><a href="https://cmsos.github.io/protocols.html#molcry.ecg">Calculation of coarse-grained electronic Hamiltonian for molecular crystals</a></li>
+</ul>
+
+<h2>Selection of materials</h2>
+<p>Datasets are composed and will be refined in future according to the following principles:</p>
+<ul>
+<li>All included materials have a well-defined 'main' polymorph known either experimentally (in most of the cases) or obtained by comprehensive computational search.
+ Here "well defined" means that different accurate approaches (including experiment) converge to the same structure.</li>
+<li>All crystals are dynamically stable except for a few higher energy polymorphs either with small imaginary frequencies or important for some reason (e.g. structural prototypes).
+ For crystals with large unit cell vibrational frequencies are not calculated.</li>
+<li>Majority of datasets are limited to elements of the first three periods.
+ Some datasets involve elements of the 4th period, e.g. transition metals.
+ Heavier elements are avoided.</li>
+</ul>
+
+<h2>Datasets</h2>
+<p>All data are 7-zipped into one archive per method (see next Section)
+ + <a href="data/exp.7z">experimental data</a>
+ + <a href="data/core.7z">core data</a> (the dataset itself).
+ Below is more detailed information about each subset including list of systems in each subset as text files whose first line contains coma-separated list of entries.
+ See description of notations at the end of this webpage.
+ Because for isolated molecules much more complicated calculations can be performed in a basis of atomic orbitals,
+ we have added single-molecule calculations below.</p>
+<ul>
+<li>Main polymorph of single-conformer molecules [ver.20230222, 67 molecules,
+ <a href="BMCOS1.html">table</a>,
+ <a href="BMCOS1_alt.html">figure</a>,
+ <a href="BMCOS1/index.html">details</a>]:
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/Acenes/index.html">acenes</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/polyT/index.html">oligothiophenes</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/PAH/index.html">PAHs</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/Fused/Azaacenes/index.html">azaacenes</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/Fused/Thienoacenes/index.html">thienoacenes</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/Fused/Imides/index.html">imides</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/Fused/Quinones/index.html">quinones</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/Indigo/index.html">indigos</a>,
+ and other core systems including
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/TCNQ/index.html">TCNQs</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/PPV/Stilbene/index.html">stilbene</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/ConjPolymers/_spec/TTF/index.html">TTF</a>,
+ <a href="https://zhugayevych.me/Lib/MS/_spec/Elem/4/C/Fullerene/index.html">C60</a></li>
+<li>[To be uploaded soon] Polymorphs</li>
+<li>[To be uploaded soon] Multi-conformer molecules with side chains + crystalline sidechains</li>
+<li>[Not too many, to be uploaded later] Polymers</li>
+<li>[Not too many, to be uploaded later] Metal-organics</li>
+<li>[In development] Impurities and intrinsic defects</li>
+</ul>
+
+<h2>Benchmarked methods</h2>
+<ul>
+<li><a href="data/PBE-D3paw900.7z">PBE-D3paw900</a></li>
+<li><a href="data/PBE-D3paw900_MA.7z">PBE-D3paw900_MA</a> (medium accuracy)</li>
+<li><a href="data/PBE-D3paw600.7z">PBE-D3paw600</a> (volume scan)</li>
+<li><a href="data/R2SCAN-D3paw900.7z">R2SCAN-D3paw900</a></li>
+<li><a href="data/R2SCAN-D3paw900_MA.7z">R2SCAN-D3paw900_MA</a> (medium accuracy)</li>
+</ul>
+<p>Isolated molecules</p>
+<ul>
+<li><a href="data/CAM-B3LYPa3p.7z">CAM-B3LYPa3p</a> (<a href="CAM-B3LYPa3p.txt">datasheet</a>)</li>
+<li><a href="data/CAM-B3LYPp2p.7z">CAM-B3LYPp2p</a> (<a href="CAM-B3LYPp2p.txt">datasheet</a>)</li>
+<li><a href="data/PBE-D3a3p.7z">PBE-D3a3p</a> (<a href="PBE-D3a3p.txt">datasheet</a>)</li>
+</ul>
+
+<hr>
+<p style="font-size: smaller">&copy; 2024 <a href="https://zhugayevych.me">Andriy Zhugayevych</a></p>
+</body>
+</html>
