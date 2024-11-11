@@ -1,0 +1,28 @@
+# polyT cryst-a optimized by PBE-D3paw900
+data_nolabel
+_cell_length_a                   7.78568515
+_cell_length_b                   7.88213983
+_cell_length_c                   5.54409832
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                72.7272477
+_cell_formula_units_Z            4
+_symmetry_space_group_name_H-M   P21/nxz
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,-y+1/2,z+1/2
+-x,-y,-z
+x+1/2,y+1/2,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+ S     .27013185  -.06668771   .15873178
+ C     .08540721   .01111701  -.03105006
+ C     .40806584   .01082213  -.03157675
+ C     .13235898   .09074631  -.23425984
+ C     .31325512   .09055225  -.23479915
+ H     .03722949   .14784451  -.37753291
+ H     .37339064   .14777911  -.37888570

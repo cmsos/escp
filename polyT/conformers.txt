@@ -1,0 +1,2 @@
+There are three types of conformations: planar, buckled (a), and helical (b).
+Conformer a/b of molec8_CAM-B3LYPp2p is 4.5/2.1 meV/dihedral lower in energy than the planar one.
