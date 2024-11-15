@@ -1,0 +1,34 @@
+# PEDOT pistack-abT optimized by PBE-D3paw900
+data_nolabel
+_cell_length_a                   7.84473419
+_cell_length_b                  20
+_cell_length_c                   7.26541516
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_symmetry_space_group_name_H-M   p2/b11xz
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1-x,-y,-z
+x,-y,-z+1/2
+1-x,y,z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+ S     .25003296  -.04913750   .03779189
+ C     .08803512   .00873550  -.00415066
+ C     .41198363   .00865950  -.00496789
+ C     .16000824   .07039450  -.04586817
+ C     .33996462   .07041600  -.04547693
+ O     .06479405   .12670050  -.08213864
+ O     .43503222   .12650450  -.08429784
+ C     .16506641   .17803900  -.16896024
+ C     .33470504   .18633450  -.07072360
+ H     .18553109   .16476700  -.31445124
+ H     .31370816   .19830050   .07600513
+ H     .08909251   .22404950  -.15984858
+ H     .41064452   .22608150  -.13519445

@@ -1,0 +1,4 @@
+There are two main conformations corresponding to the symmetry operation connecting two adjacent monomers: 'a' for reflection and 'b' for rotation.
+
+Conformer polym-b_CAM-B3LYPp2p is 0.7 meV/monomer higher in energy than 'a'.
+Conformer molec-b_CAM-B3LYPp2p is 0.4 meV higher in energy than 'a'.
