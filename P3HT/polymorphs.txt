@@ -1,0 +1,41 @@
+
+Pistack polymorphs (total energies in meV/mol by PBE-D3paw900, mol=25 atoms, and band structure parameters* by CAM-B3LYPp2p):
+           E     EGX   dEG
+          meV     eV    eV
+CAaac       0    2.23  0.50
+AAaac       7    2.35  0.13
+BAab       12    2.31  0.76
+CAab       12    2.01  0.05
+CBaac      15    2.11  0.38
+CAaac+aac  25
+BDa        28    2.29  0.13
+DAaac      31    2.53  0.54
+BAaac      36    2.49  0.74
+CAabab     43    1.94  0.32
+BBaac      44    2.19  0.29
+BAacc      46
+CBab       55
+BAa        56
+BAa-min2   59
+BDab       60
+BBa        64
+CBabab     70
+BCa        78
+ABaac     105    1.94  0.31
+CA        105    2.07  0.48
+C         113    2.46  0.49
+CBb       116
+CAb       118
+CAa       127
+CCa       137
+B         150
+CDa       153
+CBa       169
+AAa       181
+--crystals-----------------------------------------------------
+iL         -1.4              fully relaxed interdigitated
+i           0    2.29  0.13  monoclinic interdigitated
+CA         86    2.19  0.40  Dudenko's structure relaxes to CA
+C         127    2.46  0.52
+
+* EGX=E1(X)-E1(Gamma), dEG=E1(Gamma)-E2(Gamma), where numbers enumerate eigenergies from top of VB
