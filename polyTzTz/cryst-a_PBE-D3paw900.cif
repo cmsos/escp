@@ -1,0 +1,27 @@
+# polyTzTz cryst-a optimized by PBE-D3paw900
+data_nolabel
+_cell_length_a                   5.81909163
+_cell_length_b                   5.34359175
+_cell_length_c                   3.79639497
+_cell_angle_alpha                79.3936213
+_cell_angle_beta                 84.0594935
+_cell_angle_gamma                75.4791218
+_cell_formula_units_Z            1
+_symmetry_space_group_name_H-M   P-1
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+ C     .12260542   .00313001  -.00286337
+ N     .28842610  -.19257940   .15703193
+ C     .49898565  -.12451702   .10182802
+ C     .50101435   .12451702  -.10182802
+ S     .21818253   .28090324  -.23001096
+ N     .71157390   .19257940  -.15703193
+ S     .78181747  -.28090324   .23001096
+ C     .87739458  -.00313001   .00286337

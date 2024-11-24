@@ -1,0 +1,17 @@
+   1i4 .  . 1i3 .   . 1ii .   .  1i   .    .   1   .     .   1a   .    . 1aa .   . 1a3 .  . 1a4 . .
+1    6 . -3  24 . -12 118 . -66 992   . -641   0   .     .  992   .  641 118 .  66  24 . 12   6 . 3
+.    . .  .   . .   .   . 2   .   . -74    .   . 191     .    . -74    .   . 2   .   . .  .   . . .
+.    3 .  .  12 .  -6  66 . -35 641   . -390   .   . -3352 -641   . -390 -66 . -35 -12 . -6  -3 . .
+1c   . .  .  -1 .   .  -3 .   2 -16   .    9 248   .     .  -16   .   -9  -3 .  -2  -1 .  .   . . .
+.    . .  .   . .   .   . .   .   .   7    .   . 267     .    .   7    .   . .   .   . .  .   . . .
+.    . .  .   . .   .  -2 .   .  -9   .    5   .   .   290    9   .    5   2 .   .   . .  .   . . .
+
+
+
+     1i4 .      .    1i3 .      .    1ii     .       .    1i     .      .    1    .    .     1a     .     .     1aa     .      .    1a3 .     .    1a4 .     .
+1  tAAa4 . -tACa4  tAAa3 . -tACa3  tAAaa     .  -tACaa  tAAa     .  -tACa   eA    .    .   tAAa     .  tACa   tAAaa     .  tACaa  tAAa3 . tACa3  tAAa4 . tACa4
+.      . .      .      . .      .      . tBBaa       .     .  tBBa      .    .   eB    .      .  tBBa     .       . tBBaa      .      . .     .      . .     .
+.  tACa4 .      .  tACa3 .  tCCa3  tACaa     .   tCCaa  tACa     .   tCCa    .    .   eC  -tACa     .  tCCa  -tACaa     .  tCCaa -tACa3 . tCCa3 -tACa4 .     .
+1c     . .      . tAAa3c .      . tAAaac     . -tACaac tAAac     . -tACac tAAc    .    .  tAAac     . tACac  tAAaac     . tACaac tAAa3c .     .      . .     .
+.      . .      .      . .      .      .     .       .     . tBBac      .    . tBBc    .      . tBBac     .       .     .      .      . .     .      . .     .
+.      . .      .      . .      . tACaac     .       . tACac     .  tCCac    .    . tCCc -tACac     . tCCac -tACaac     .      .      . .     .      . .     .

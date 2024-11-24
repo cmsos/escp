@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   version="1.1"
+   width="91"
+   height="68"
+   viewBox="-2 -2 91 68"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     transform="translate(-206.80416,-232.81883)"
+     id="molecule">
+    <path
+       d="m 293.35586,277.59662 -42.60085,-24.74841 -42.90085,24.8984"
+       style="fill:none;stroke:#000000;stroke-width:2.1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1" />
+  </g>
+  <g
+     transform="translate(-206.80416,-232.81883)"
+     id="brackets">
+    <path
+       d="m 267.717,296.72598 h 10.17857 V 233.86883 H 267.717 m -33.32313,62.85715 H 224.2153 v -62.85715 h 10.17857"
+       style="fill:none;stroke:#000000;stroke-width:2.1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2" />
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+
+Polymorphs by PBE-D3paw900 (meV/mol, mol=8 atoms):
+      E   SG    nm   phi      RMSD     xi     z      phi     RMSD     a      bxi     by     bz     cxi     cz
+a     0   P-1   1   -23.69   .0034  0.0675  3.776  -23.69   .0034   5.819  0.2302  5.103  0.849  0.1350  7.552
+b    18   P-1   2   -10.44   .0074  0.1881  3.538  168.73   .0057   5.817 -0.1738  5.473  1.301  0.3762  7.075
+sL   76   P-1   2    10.84   .0050  0.1961  3.519 -173.32   .0038   5.817  0.1454  5.805  1.386  0.3922  7.038
+sH  147   Pccm  2     0      .0033  0       3.614  180      .0033   5.815  0       6.101  0      0       7.229
+
+* cryst-b with doubled period and antialigned along Y relaxes to aligned structure (cryst-bx, 45 meV/mol)
+
+
+Polymorphs by VDW-DF2paw600:
+     SG      V      a       b       c      alpha   beta    gamma E(meV/mol)  mol=8 atoms
+---------------------------------------------------------------------------------------
+b   P-1     7.47   5.859   6.086   7.624   73.02   72.40   98.72      0  Ebind=0.63 eV/mol
+a   P-1     7.73   5.862   6.055   7.158   89.29   98.65   80.46     32
+sL  P-1     7.82   5.854   5.971   7.545   84.31   73.14   83.36     68
+sH  Pccm    8.22   5.851   6.129   7.335   90.00   90.00   90.00    118

@@ -1,0 +1,18 @@
+# polyethylene cryst-a optimized by PBE-D3paw900
+data_nolabel
+_cell_length_a                   2.55431745
+_cell_length_b                   4.8480924
+_cell_length_c                   7.06922885
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_symmetry_space_group_name_H-M   Pmcn
+loop_
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+ C     .25   .06111385   .04169156
+ H     .25   .03110153   .19628976
+ H     .25   .28642257   .01923438

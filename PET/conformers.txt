@@ -1,0 +1,15 @@
+
+molec4 conformers by CAM-B3LYP-D3p3p:
+ conformer    dihedral   E
+                  deg   meV
+     trans                0
+ g   gauche   d0  296    23
+ g1  gauche   d1  296    25
+ s   saddle   d0  240   126
+ sH  saddle   dH  180   126
+ c   cis      d0    0   232
+ h   hairpin            102
+
+*Dihedrals: d0=[7,10,13,16], d1=[1,4,7,10], dH=[25,1,4,7]
+
+Detailed analysis of chain-length dependence of hairpin vs trans conformer energies is given in Refs.[Byrd14,Zhugayevych18]
