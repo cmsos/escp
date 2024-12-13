@@ -1,0 +1,19 @@
+
+Interchain couplings in dimer approximation
+from oligomer HOMO by PBE-D3paw900/CAM-B3LYPp2p
+-----------------------------
+    shift 1+2  1+1c  dE
+          meV  meV  meV/mol
+-----------------------------
+aH  .000   26  -12   11
+ax  .143  -29  -13    0.1
+a   .150  -32  -13    0
+o2  .152  -45  +13
+ay  .167  -40  -13    0.5
+o6  .169  -48   -8
+o4  .180  -55   -2
+c   .250  -61  -10    2.5
+b   .311  -33   -7    6
+bH  .500   79  -12   24
+-----Oligomer polymorphs-----
+o4aL    -19/27 -26

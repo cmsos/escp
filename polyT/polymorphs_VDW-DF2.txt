@@ -1,0 +1,7 @@
+
+Polymorphs by VDW-DF2paw600 (E in meV/mol):
+a   0.0
+c  -1.5
+b   5.5
+aH  7.1
+bH 17.2

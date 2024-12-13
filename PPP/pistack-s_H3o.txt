@@ -6,7 +6,9 @@
 .    . .  .   . .   .   . .   .   .   7    .   . 267     .    .   7    .   . .   .   . .  .   . . .
 .    . .  .   . .   .  -2 .   .  -9   .    5   .   .   290    9   .    5   2 .   .   . .  .   . . .
 
-
+In polymer basis:
+1  2282
+1k  206
 
      1i4 .      .    1i3 .      .    1ii     .       .    1i     .      .    1    .    .     1a     .     .     1aa     .      .    1a3 .     .    1a4 .     .
 1  tAAa4 . -tACa4  tAAa3 . -tACa3  tAAaa     .  -tACaa  tAAa     .  -tACa   eA    .    .   tAAa     .  tACa   tAAaa     .  tACaa  tAAa3 . tACa3  tAAa4 . tACa4
